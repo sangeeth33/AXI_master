@@ -1,0 +1,8 @@
+`include "AXI_seq_item.sv"
+`include "base_test.sv"
+`include "AXI_sequencer.sv"
+`include "AXI_driver.sv"
+`include "AXI_monitor.sv"
+`include "AXI_scoreboard.sv"
+`include "AXI_agent.sv"
+`include "AXI_env.sv"
