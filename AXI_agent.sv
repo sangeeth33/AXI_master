@@ -15,5 +15,11 @@ class axi_agent extends uvm_agent;
         driver = axi_driver::type_id::create("driver", this);
         monitor = axi_monitor::type_id::create("monitor", this);
     endfunction
+    virtual function void display();
+        $display("this is a display statement");
+    endfunction
+        
+        
 
 endclass
+
